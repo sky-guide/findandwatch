@@ -10,3 +10,8 @@ $('#search').click(function() {
         height: '+=200'
     }).off('click');
 });
+
+$('#search button').click(function() {
+    $(this).toggleClass('selected').siblings().removeClass('selected');
+});
+

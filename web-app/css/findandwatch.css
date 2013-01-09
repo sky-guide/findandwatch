@@ -9,6 +9,25 @@
 #search {
     background-color: green;
 }
+
+#search div p {
+    margin: 0;
+    padding: 0;
+}
+
+#search div p span {
+    color: cyan;
+}
+
+#search button {
+
+}
+
+#search button.selected {
+    color: red;
+}
+
+
 #recs {
     background-color: yellow;
 

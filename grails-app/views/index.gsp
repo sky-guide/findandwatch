@@ -10,18 +10,18 @@
 <div id="search" class="pod">
     <div class="what">
         <p><span>What</span> do you want to watch?</p>
-        <input type="text">
+        <p><input type="text"></p>
         <button>Movies</button><button>Sports</button><button>Tv Series</button><button>Other</button>
     </div>
 
     <div class="when">
         <p><span>When</span> do you want to watch?</p>
-        <button>Now</button><button>Tonight</button><button>Future</button>
+        <button class="selected">Now</button><button>Tonight</button><button>Future</button>
     </div>
 
     <div class="where">
         <p><span>Where</span> do you want to watch?</p>
-        <button>TV</button><button>On This Device</button>
+        <button class="selected">TV</button><button>On This Device</button>
     </div>
 </div>
 
