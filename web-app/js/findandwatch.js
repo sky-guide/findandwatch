@@ -15,3 +15,8 @@ $('#search button').click(function() {
     $(this).toggleClass('selected').siblings().removeClass('selected');
 });
 
+$(function() {
+    $('#recs .carousel').orbit({
+        advanceSpeed: 5000
+    });
+});

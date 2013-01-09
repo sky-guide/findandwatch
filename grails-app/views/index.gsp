@@ -25,7 +25,13 @@
     </div>
 </div>
 
-<div id="recs" class="pod"></div>
+<div id="recs" class="pod">
+    <div class="carousel">
+        <g:each in="${1..<5}" var="index">
+            <img src="images/orbit/${index}.jpeg"/>
+        </g:each>
+    </div>
+</div>
 
 <div id="social" class="pod"></div>
 

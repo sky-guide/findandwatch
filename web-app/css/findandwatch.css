@@ -31,8 +31,10 @@
 
 #recs {
     height: 400px;
-    width: 300px;
+    width: 400px;
     background-color: yellow;
+    overflow: hidden;
+    padding: 0;
 }
 
 #social {
