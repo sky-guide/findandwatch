@@ -1,0 +1,23 @@
+.pod {
+    height: 200px;
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 45px 15px;
+}
+
+#search {
+    background-color: green;
+}
+#recs {
+    background-color: yellow;
+
+}
+
+#social {
+    background-color: red;
+}
+
+#most-popular {
+    background-color: blue;
+}
