@@ -6,9 +6,22 @@
 }
 
 #search {
+    position: relative;
     height: 200px;
     width: 400px;
     background-color: green;
+}
+
+#search #results .result {
+    padding-top: 10px;
+}
+
+#search #results {
+    position: absolute;
+    left: 500px;
+    top: 0;
+    width: 500px;
+    height: 500px;
 }
 
 #search div p {
@@ -47,4 +60,8 @@
     height: 400px;
     width: 500px;
     background-color: blue;
+}
+
+.hide {
+    display: none;
 }

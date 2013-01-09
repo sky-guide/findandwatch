@@ -9,6 +9,8 @@ $('#search').click(function() {
         width: '90%',
         height: '500'
     }).off('click');
+    $(this).attr('style', '');
+    $(this).find('.hide').show();
 });
 
 $('#search button').click(function() {
